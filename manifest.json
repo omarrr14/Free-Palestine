@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Free Palestine",
+  "version": "1.0",
+  "description": "Replaces the New Tab page with a custom background and a centered overlay displaying a daily fact about Palestine.",
+  "author": "Omar Elsayed Elfar",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palestine New Tab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="search-container">
+      <form class="search-form" id="search-form">
+        <input type="text" class="search-input" id="search-input" placeholder="Search the web...">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </div>
+    
+    <div class="shortcuts-container" id="shortcuts-container">
+      <!-- Shortcuts will be added here by JavaScript -->
+      <div class="add-shortcut" id="add-shortcut">+</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="fact-container" id="fact-container">
+      <p class="fact-date" id="fact-date">March 31, 2025</p>
+      <h2 class="fact-title" id="fact-title">Loading today's fact about Palestine...</h2>
+      <p class="fact-description" id="fact-description">Please wait while we load information about Palestine's rich history and culture.</p>
+    </div>
+  </div>
+
+  <!-- Shortcut Form Modal -->
+  <div class="overlay" id="overlay"></div>
+  <div class="shortcut-form" id="shortcut-form">
+    <h3>Add New Shortcut</h3>
+    <div class="form-group">
+      <label for="shortcut-name">Name</label>
+      <input type="text" id="shortcut-name" placeholder="e.g. Google">
+    </div>
+    <div class="form-group">
+      <label for="shortcut-url">URL</label>
+      <input type="url" id="shortcut-url" placeholder="e.g. https://www.google.com">
+    </div>
+    <div class="form-buttons">
+      <button class="cancel-btn" id="cancel-btn">Cancel</button>
+      <button class="save-btn" id="save-btn">Save</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
